@@ -41,6 +41,7 @@ kubectl get deployments
 
 ## Si sur WSL, changer les ports de deploiements :
 kubectl port-forward deployment/poll 8080:80
+
 kubectl port-forward deployment/result 8081:80
 
 
