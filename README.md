@@ -5,6 +5,7 @@
 (lancer docker avant)  
 ## Cluster KIND  
 kind create cluster --config=kind-config.yaml --name=dop603
+
 kubectl cluster-info --context kind-dop603
 
 ## Namespace kube-public (Si n'existe pas)  
